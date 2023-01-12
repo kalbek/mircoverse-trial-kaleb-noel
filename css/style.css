@@ -8,9 +8,24 @@
   } */
   #navbar {
     display: flex;
-    position: fixed;
+    float: left;
+    border-right: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* position: fixed; */
   }
-
+  #navbar a {
+    text-decoration: none;
+    color: black;
+  
+  }
+  main {
+    float: right;
+      padding-left: 10px;
+    padding-right: 10px;
+  }
+  
   body {
     display: flex;
   }
+  
