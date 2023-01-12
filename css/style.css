@@ -1,0 +1,12 @@
+@media (max-width: 400px){
+    body {
+      background-color: red;
+    }
+  }
+  /* body {
+    position: relative;
+  } */
+  #navbar {
+    display: flex;
+    position: fixed;
+  }
